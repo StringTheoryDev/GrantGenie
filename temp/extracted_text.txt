@@ -1,0 +1,357 @@
+```json
+{
+  "budget_items": [
+    {
+      "category": "personnel",
+      "item_name": "Principal Investigator (PI)",
+      "description": "2 months summer salary",
+      "year": 1,
+      "amount": 20000,
+      "quantity": 1,
+      "justification": "PI will lead all aspects of the project, including data acquisition, model development, and dissemination of results."
+    },
+    {
+      "category": "personnel",
+      "item_name": "Principal Investigator (PI)",
+      "description": "2 months summer salary",
+      "year": 2,
+      "amount": 20000,
+      "quantity": 1,
+      "justification": "PI will continue to lead the project, focusing on model development and validation."
+    },
+    {
+      "category": "personnel",
+      "item_name": "Principal Investigator (PI)",
+      "description": "2 months summer salary",
+      "year": 3,
+      "amount": 20000,
+      "quantity": 1,
+      "justification": "PI will oversee model refinement and integration."
+    },
+    {
+      "category": "personnel",
+      "item_name": "Principal Investigator (PI)",
+      "description": "2 months summer salary",
+      "year": 4,
+      "amount": 20000,
+      "quantity": 1,
+      "justification": "PI will manage model testing and integration into existing frameworks."
+    },
+    {
+      "category": "personnel",
+      "item_name": "Principal Investigator (PI)",
+      "description": "2 months summer salary",
+      "year": 5,
+      "amount": 20000,
+      "quantity": 1,
+      "justification": "PI will oversee model deployment, impact assessment, and training."
+    },
+    {
+      "category": "personnel",
+      "item_name": "Postdoctoral Researcher",
+      "description": "12 months salary",
+      "year": 1,
+      "amount": 60000,
+      "quantity": 1,
+      "justification": "Postdoc will assist with data preprocessing, model development, and analysis."
+    },
+    {
+      "category": "personnel",
+      "item_name": "Postdoctoral Researcher",
+      "description": "12 months salary",
+      "year": 2,
+      "amount": 61800,
+      "quantity": 1,
+      "justification": "Postdoc will continue model development and validation, and contribute to publications."
+    },
+    {
+      "category": "personnel",
+      "item_name": "Postdoctoral Researcher",
+      "description": "12 months salary",
+      "year": 3,
+      "amount": 63654,
+      "quantity": 1,
+      "justification": "Postdoc will focus on model refinement, integration, and testing."
+    },
+    {
+      "category": "personnel",
+      "item_name": "Postdoctoral Researcher",
+      "description": "12 months salary",
+      "year": 4,
+      "amount": 65563,
+      "quantity": 1,
+      "justification": "Postdoc will assist with model testing, deployment, and impact assessment."
+    },
+    {
+      "category": "personnel",
+      "item_name": "Postdoctoral Researcher",
+      "description": "6 months salary",
+      "year": 5,
+      "amount": 33600,
+      "quantity": 1,
+      "justification": "Postdoc will focus on impact assessment, training, and dissemination of results."
+    },
+    {
+      "category": "personnel",
+      "item_name": "Graduate Research Assistant (GRA)",
+      "description": "12 months salary and tuition",
+      "year": 1,
+      "amount": 40000,
+      "quantity": 1,
+      "justification": "GRA will assist with data collection, preprocessing, and initial model development."
+    },
+    {
+      "category": "personnel",
+      "item_name": "Graduate Research Assistant (GRA)",
+      "description": "12 months salary and tuition",
+      "year": 2,
+      "amount": 41200,
+      "quantity": 1,
+      "justification": "GRA will continue model development and contribute to validation."
+    },
+    {
+      "category": "personnel",
+      "item_name": "Graduate Research Assistant (GRA)",
+      "description": "12 months salary and tuition",
+      "year": 3,
+      "amount": 42436,
+      "quantity": 1,
+      "justification": "GRA will focus on model refinement and testing."
+    },
+    {
+      "category": "personnel",
+      "item_name": "Graduate Research Assistant (GRA)",
+      "description": "12 months salary and tuition",
+      "year": 4,
+      "amount": 43709,
+      "quantity": 1,
+      "justification": "GRA will assist with model testing and deployment."
+    },
+    {
+      "category": "personnel",
+      "item_name": "Graduate Research Assistant (GRA)",
+      "description": "6 months salary and tuition",
+      "year": 5,
+      "amount": 22400,
+      "quantity": 1,
+      "justification": "GRA will focus on impact assessment and dissemination of results."
+    },
+    {
+      "category": "equipment",
+      "item_name": "High-Performance Computing (HPC) Resources",
+      "description": "Cloud computing services for model training and simulation",
+      "year": 1,
+      "amount": 15000,
+      "quantity": 1,
+      "justification": "Essential for processing large climate datasets and training complex machine learning models."
+    },
+    {
+      "category": "equipment",
+      "item_name": "High-Performance Computing (HPC) Resources",
+      "description": "Cloud computing services for model training and simulation",
+      "year": 2,
+      "amount": 15000,
+      "quantity": 1,
+      "justification": "Essential for processing large climate datasets and training complex machine learning models."
+    },
+    {
+      "category": "equipment",
+      "item_name": "High-Performance Computing (HPC) Resources",
+      "description": "Cloud computing services for model training and simulation",
+      "year": 3,
+      "amount": 15000,
+      "quantity": 1,
+      "justification": "Essential for processing large climate datasets and training complex machine learning models."
+    },
+    {
+      "category": "equipment",
+      "item_name": "High-Performance Computing (HPC) Resources",
+      "description": "Cloud computing services for model training and simulation",
+      "year": 4,
+      "amount": 15000,
+      "quantity": 1,
+      "justification": "Essential for processing large climate datasets and training complex machine learning models."
+    },
+    {
+      "category": "equipment",
+      "item_name": "High-Performance Computing (HPC) Resources",
+      "description": "Cloud computing services for model training and simulation",
+      "year": 5,
+      "amount": 15000,
+      "quantity": 1,
+      "justification": "Essential for processing large climate datasets and training complex machine learning models."
+    },
+    {
+      "category": "travel",
+      "item_name": "Conference Travel",
+      "description": "Travel to relevant conferences (e.g., AGU, NeurIPS) for dissemination of results.",
+      "year": 1,
+      "amount": 5000,
+      "quantity": 1,
+      "justification": "Presenting research findings and networking with other researchers."
+    },
+    {
+      "category": "travel",
+      "item_name": "Conference Travel",
+      "description": "Travel to relevant conferences (e.g., AGU, NeurIPS) for dissemination of results.",
+      "year": 2,
+      "amount": 5000,
+      "quantity": 1,
+      "justification": "Presenting research findings and networking with other researchers."
+    },
+    {
+      "category": "travel",
+      "item_name": "Conference Travel",
+      "description": "Travel to relevant conferences (e.g., AGU, NeurIPS) for dissemination of results.",
+      "year": 3,
+      "amount": 5000,
+      "quantity": 1,
+      "justification": "Presenting research findings and networking with other researchers."
+    },
+    {
+      "category": "travel",
+      "item_name": "Conference Travel",
+      "description": "Travel to relevant conferences (e.g., AGU, NeurIPS) for dissemination of results.",
+      "year": 4,
+      "amount": 5000,
+      "quantity": 1,
+      "justification": "Presenting research findings and networking with other researchers."
+    },
+    {
+      "category": "travel",
+      "item_name": "Conference Travel",
+      "description": "Travel to relevant conferences (e.g., AGU, NeurIPS) for dissemination of results.",
+      "year": 5,
+      "amount": 5000,
+      "quantity": 1,
+      "justification": "Presenting research findings and networking with other researchers."
+    },
+    {
+      "category": "materials",
+      "item_name": "Software Licenses",
+      "description": "Licenses for specialized software for data analysis and model development.",
+      "year": 1,
+      "amount": 2000,
+      "quantity": 1,
+      "justification": "Necessary for data preprocessing, model training, and visualization."
+    },
+    {
+      "category": "materials",
+      "item_name": "Software Licenses",
+      "description": "Licenses for specialized software for data analysis and model development.",
+      "year": 2,
+      "amount": 2000,
+      "quantity": 1,
+      "justification": "Necessary for data preprocessing, model training, and visualization."
+    },
+    {
+      "category": "materials",
+      "item_name": "Software Licenses",
+      "description": "Licenses for specialized software for data analysis and model development.",
+      "year": 3,
+      "amount": 2000,
+      "quantity": 1,
+      "justification": "Necessary for data preprocessing, model training, and visualization."
+    },
+    {
+      "category": "materials",
+      "item_name": "Software Licenses",
+      "description": "Licenses for specialized software for data analysis and model development.",
+      "year": 4,
+      "amount": 2000,
+      "quantity": 1,
+      "justification": "Necessary for data preprocessing, model training, and visualization."
+    },
+    {
+      "category": "materials",
+      "item_name": "Software Licenses",
+      "description": "Licenses for specialized software for data analysis and model development.",
+      "year": 5,
+      "amount": 2000,
+      "quantity": 1,
+      "justification": "Necessary for data preprocessing, model training, and visualization."
+    },
+    {
+      "category": "other costs",
+      "item_name": "Data Acquisition",
+      "description": "Costs associated with acquiring climate data from various sources.",
+      "year": 1,
+      "amount": 5000,
+      "quantity": 1,
+      "justification": "Essential for obtaining the necessary data for model training and validation."
+    },
+    {
+      "category": "other costs",
+      "item_name": "Data Acquisition",
+      "description": "Costs associated with acquiring climate data from various sources.",
+      "year": 2,
+      "amount": 5000,
+      "quantity": 1,
+      "justification": "Essential for obtaining the necessary data for model training and validation."
+    },
+    {
+      "category": "other costs",
+      "item_name": "Data Acquisition",
+      "description": "Costs associated with acquiring climate data from various sources.",
+      "year": 3,
+      "amount": 5000,
+      "quantity": 1,
+      "justification": "Essential for obtaining the necessary data for model training and validation."
+    },
+    {
+      "category": "other costs",
+      "item_name": "Data Acquisition",
+      "description": "Costs associated with acquiring climate data from various sources.",
+      "year": 4,
+      "amount": 5000,
+      "quantity": 1,
+      "justification": "Essential for obtaining the necessary data for model training and validation."
+    },
+    {
+      "category": "other costs",
+      "item_name": "Data Acquisition",
+      "description": "Costs associated with acquiring climate data from various sources.",
+      "year": 5,
+      "amount": 5000,
+      "quantity": 1,
+      "justification": "Essential for obtaining the necessary data for model training and validation."
+    },
+    {
+      "category": "other costs",
+      "item_name": "Publication Costs",
+      "description": "Costs associated with publishing research findings in peer-reviewed journals.",
+      "year": 2,
+      "amount": 1000,
+      "quantity": 1,
+      "justification": "To disseminate research findings to the scientific community."
+    },
+    {
+      "category": "other costs",
+      "item_name": "Publication Costs",
+      "description": "Costs associated with publishing research findings in peer-reviewed journals.",
+      "year": 3,
+      "amount": 1000,
+      "quantity": 1,
+      "justification": "To disseminate research findings to the scientific community."
+    },
+    {
+      "category": "other costs",
+      "item_name": "Publication Costs",
+      "description": "Costs associated with publishing research findings in peer-reviewed journals.",
+      "year": 4,
+      "amount": 1000,
+      "quantity": 1,
+      "justification": "To disseminate research findings to the scientific community."
+    },
+    {
+      "category": "other costs",
+      "item_name": "Publication Costs",
+      "description": "Costs associated with publishing research findings in peer-reviewed journals.",
+      "year": 5,
+      "amount": 1000,
+      "quantity": 1,
+      "justification": "To disseminate research findings to the scientific community."
+    }
+  ]
+}
+```

@@ -1,0 +1,208 @@
+/* assets/css/style.css */
+
+/* Global Styles */
+:root {
+    --primary-color: #4e73df;
+    --secondary-color: #6c757d;
+    --success-color: #1cc88a;
+    --warning-color: #f6c23e;
+    --danger-color: #e74a3b;
+    --light-color: #f8f9fc;
+    --dark-color: #5a5c69;
+}
+
+body {
+    background-color: #f8f9fc;
+    font-family: 'Nunito', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+/* Card styles */
+.card {
+    border-radius: 0.35rem;
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15);
+    margin-bottom: 1.5rem;
+}
+
+.card-header {
+    background-color: #f8f9fc;
+    border-bottom: 1px solid #e3e6f0;
+    padding: 1rem 1.25rem;
+}
+
+/* Form styles */
+.form-control:focus {
+    border-color: #bac8f3;
+    box-shadow: 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+    background-color: #2e59d9;
+    border-color: #2653d4;
+}
+
+/* Wizard steps */
+.wizard-steps {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    position: relative;
+    overflow-x: auto;
+}
+
+.wizard-steps::after {
+    content: '';
+    position: absolute;
+    top: 1.5rem;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: #e3e6f0;
+    z-index: 0;
+}
+
+.wizard-step {
+    flex: 1;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    min-width: 120px;
+}
+
+.wizard-step-number {
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid #e3e6f0;
+    margin: 0 auto 0.5rem;
+    font-weight: bold;
+}
+
+.wizard-step.active .wizard-step-number {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: white;
+}
+
+.wizard-step.completed .wizard-step-number {
+    background-color: var(--success-color);
+    border-color: var(--success-color);
+    color: white;
+}
+
+.wizard-step-label {
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+/* Budget table */
+.budget-table th {
+    background-color: #f8f9fc;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.budget-category {
+    font-weight: bold;
+    background-color: #eaecf4;
+}
+
+/* Validation warnings */
+.validation-warning {
+    background-color: #fff3cd;
+    border-left: 5px solid #ffc107;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.25rem;
+}
+
+.suggestion {
+    color: #0d6efd;
+    cursor: pointer;
+}
+
+.suggestion:hover {
+    text-decoration: underline;
+}
+
+/* Dashboard cards */
+.dashboard-card {
+    border-left: 4px solid var(--primary-color);
+    border-radius: 0.35rem;
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15);
+    transition: transform 0.2s;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-5px);
+}
+
+.dashboard-card-primary {
+    border-left-color: var(--primary-color);
+}
+
+.dashboard-card-success {
+    border-left-color: var(--success-color);
+}
+
+.dashboard-card-warning {
+    border-left-color: var(--warning-color);
+}
+
+.dashboard-card-danger {
+    border-left-color: var(--danger-color);
+}
+
+/* Footer */
+footer {
+    margin-top: auto;
+}
+
+/* Loading spinner */
+.loading-spinner {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    border: 0.2rem solid rgba(0, 0, 0, 0.1);
+    border-top-color: var(--primary-color);
+    border-radius: 50%;
+    animation: spinner 0.6s linear infinite;
+}
+
+@keyframes spinner {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .card-body {
+        padding: 1rem;
+    }
+    
+    .wizard-step-label {
+        font-size: 0.75rem;
+    }
+}

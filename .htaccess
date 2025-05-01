@@ -1,0 +1,32 @@
+# Prevent directory listing
+Options -Indexes
+
+# Set default character set
+AddDefaultCharset UTF-8
+
+# Protect sensitive files
+<FilesMatch "^\.ht">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Protect config and includes directories
+<FilesMatch "^(config|database)/.*\.php$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Security headers
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-XSS-Protection "1; mode=block"
+    Header set X-Frame-Options "SAMEORIGIN"
+</IfModule>
+
+# PHP settings
+<IfModule mod_php7.c>
+    php_flag display_errors off
+    php_value upload_max_filesize 20M
+    php_value post_max_size 20M
+    php_value memory_limit 256M
+</IfModule>

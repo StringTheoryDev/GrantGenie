@@ -1,0 +1,20 @@
+=== Budget Generation Attempt: 2025-03-31 04:10:08 ===
+Project ID: 2, Title: Advanced Machine Learning Techniques for Climate Change Prediction, Type: NSF
+Description length: 1898 characters
+Starting budget generation with Gemini API
+EXCEPTION: Unexpected API response format
+Trace: #0 C:\Users\farjahan.shawon\Documents\GrantGenie\api\generate_budget.php(89): GeminiAPI->generateBudget('The Advanced Ma...', 'NSF', 5)
+#1 {main}
+=== Budget Generation Attempt: 2025-03-31 04:18:48 ===
+Project ID: 2, Title: Advanced Machine Learning Techniques for Climate Change Prediction, Type: NSF
+Description length: 1898 characters
+Starting budget generation with Gemini API
+EXCEPTION: Unexpected API response format
+Trace: #0 C:\Users\farjahan.shawon\Documents\GrantGenie\api\generate_budget.php(89): GeminiAPI->generateBudget('The Advanced Ma...', 'NSF', 5)
+#1 {main}
+=== Budget Generation Attempt: 2025-03-31 04:25:57 ===
+Project ID: 2, Title: Advanced Machine Learning Techniques for Climate Change Prediction, Type: NSF
+Description length: 1898 characters
+Starting budget generation with Gemini API
+Successfully generated 39 budget items
+Successfully saved 39 budget items to database
